@@ -1,0 +1,55 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "spacing": 4,
+    "modules-left": ["hyprland/workspaces", "sway/mode"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["battery", "clock", "power-profiles-daemon", "cpu", "memory", "temperature", "pulseaudio", "bluetooth"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "battery": {
+	"interval": 67,
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""],
+	"format-alt": "{time}"
+
+    },
+    "clock": {
+	"format": "{:%H:%M} ",
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "hyprland/workspaces": {
+	"format": "{icon}",
+	"format-icons": {
+		"active": "",
+		"default": ""
+	}
+	},
+	"hyprland/window": {
+		"format": "{}"
+	},
+	"{power-profiles-daemon}": {
+		"format": "{icon}",
+		"format-icons": {
+    			"default": "",
+    			"performance": "",
+    			"balanced": "",
+    			"power-saver": ""
+  		}
+	},
+	"cpu": {
+		"format": "{usage}% "
+	},
+	"memory": {
+		"format": "{percentage}%  "
+	},
+	"temperature": {
+		"format": "{temperatureC}C "
+	},
+	"pulseaudio": {
+		"format": "{volume}% "
+	},
+	"bluetooth": {
+	}
+}
