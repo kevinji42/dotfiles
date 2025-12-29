@@ -1,4 +1,8 @@
+import catppuccin
+
 config.load_autoconfig()
+
+catppuccin.setup(c,"Mocha", True)
 
 # yt add block from https://github.com/vEnhance/dotfiles/blob/2b6c5a95ca2fe962d7a6c27e9ad3bf1fc7fefa94/qutebrowser/config.py
 

@@ -19,6 +19,8 @@ settings:
     - never
   content.autoplay:
     global: false
+  content.javascript.clipboard:
+    https://github.com: access-paste
   content.notifications.enabled:
     https://www.youtube.com: false
   downloads.location.remember:
@@ -29,6 +31,24 @@ settings:
     global: Monocraft
   hints.mode:
     global: letter
+  hints.padding:
+    global:
+      bottom: 0
+      left: 2
+      right: 2
+      top: 0
+  tabs.indicator.padding:
+    global:
+      bottom: 2
+      left: 0
+      right: 4
+      top: 2
+  tabs.padding:
+    global:
+      bottom: 2
+      left: 5
+      right: 5
+      top: 2
   tabs.show_switching_delay:
     global: 800
   tabs.title.format:
