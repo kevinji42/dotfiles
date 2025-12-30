@@ -1,0 +1,8 @@
+width = 300
+height = (0,200)
+
+origin = 'top-right'
+
+gap_size = 5
+
+font = 'Monocraft'
