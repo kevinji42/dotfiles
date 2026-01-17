@@ -4,7 +4,7 @@
     "spacing": 2,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "battery", "clock", "power-profiles-daemon", "cpu", "memory", "pulseaudio", "bluetooth", "tray"],
+    "modules-right": ["network", "battery", "clock", "power-profiles-daemon", "cpu", "memory", "pulseaudio", "tray"],
 
   "battery": {
 	"interval": 67,
@@ -56,7 +56,8 @@
 	},
 	
   "cpu": {
-		"format": "{usage}% "
+		"format": "",
+    "format-alt": "{usage}% "
 	},
 	
   "memory": {
@@ -66,12 +67,10 @@
   "pulseaudio": {
 		"format": "{volume}% "
 	},
-	
-  "bluetooth": {
-	},
-  
+	  
   "network": {
-    "format": "{essid} ({signalStrength}%) "
+    "format": "{signalStrength}% ",
+    "format-alt": "{essid} ({signalStrength})"
   }
 }
 }
