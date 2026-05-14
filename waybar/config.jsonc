@@ -1,10 +1,10 @@
 {
-    "layer": "top",
+    "layer": "bottom",
     "position": "bottom",
     "spacing": 2,
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["network", "battery", "clock", "power-profiles-daemon", "cpu", "memory", "pulseaudio", "tray"],
+    "modules-center": [],
+    "modules-right": ["network", "battery", "clock", "power-profiles-daemon", "cpu", "memory", "pulseaudio", "keyboard-state", "tray"],
 
   "battery": {
 	"interval": 67,
@@ -71,6 +71,17 @@
   "network": {
     "format": "{signalStrength}% ",
     "format-alt": "{essid} ({signalStrength})"
+  },
+
+  "keyboard-state": {
+    "numlock": true,
+    "format": {
+      "numlock": "{icon}"
+    },
+    "format-icons": {
+      "locked": "",
+      "unlocked": ""
+    }
   }
 }
-}
+},

@@ -67,6 +67,7 @@ button:hover {
 #pulseaudio,
 #wireplumber,
 #custom-media,
+#keyboard-state
 #tray,
 #mode,
 #idle_inhibitor,
@@ -252,11 +253,8 @@ label:focus {
 }
 
 #keyboard-state {
-    background: #97e1ad;
-    color: #000000;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 16px;
+    border: 2px solid rgb(245, 189, 230);
+    color: rgb(198, 160, 246);
 }
 
 #keyboard-state > label {

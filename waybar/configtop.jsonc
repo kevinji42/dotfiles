@@ -1,0 +1,16 @@
+{
+    "layer": "bottom",
+    "position": "top",
+    "spacing": 0,
+    "modules-left": [],
+    "modules-center": ["hyprland/window"],
+    "modules-right": [],
+    "height": 20,
+  
+  "hyprland/window": {
+		"format": "{}",
+    "max-length": 50
+	},
+
+
+}
